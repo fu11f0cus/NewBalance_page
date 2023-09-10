@@ -1,0 +1,636 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+.chat {
+    position: fixed;
+    top: auto;
+    bottom: 30px;
+    left: auto;
+    right: 30px;
+}
+.chat button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border-color: #b70202;
+    border-style: solid;
+    background-color: #bc0202;
+    transition: .4s;
+}
+.chat button:hover {
+    transform: scale(1.1);
+    background-color: #8b0000;
+    cursor: pointer;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.hat {
+    background-color: #c6c6c6;
+    display: flex;
+    flex-direction: row;
+}
+.hattext {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+}
+.hatlink {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    transition: .2s;
+    font-weight: bold;
+}
+.hatlink:hover {
+    text-decoration: underline;
+}
+.hatlang {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    left: auto;
+}
+.hatlang img {
+    width: 40px;
+    height: 25px;
+}
+.langhr {
+    margin: 10px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: -20px;
+}
+.imglogo {
+    width: 150px;
+    height: 73px;
+    margin-left: 60px;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 20px;
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  color: black;
+  padding: 30px;
+  padding-top: 45px;
+  background-color: inherit;
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: row;
+}
+.dropdown:hover .dropbtn {
+    border-bottom-color: rgb(238, 46, 46);
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.row .shoes {
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.short {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.shortlink {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    width: fit-content;
+}
+.line {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.shortlinkmain {
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.shortlinkmain:hover {
+    text-decoration: underline;
+}
+.shortlink:hover {
+    text-decoration: underline;
+}
+.shoes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    width: 200px;
+    padding-top: 30px;
+}
+.shoes a {
+    color: black;
+    text-align: left;
+    padding-top: 3px;
+    font-size: 15px;
+}
+.short a {
+    color: black;
+    padding-top: 3px;
+    font-size: 15px;
+}
+.newlink {
+    color: black;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    display: block;
+    width: fit-content;
+    font-size: 15px;
+    transition: .2s;
+}
+.testimg {
+    width: 550px;
+    height: 400px;
+    padding: 20px;
+}
+.short {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.shortlink {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    width: fit-content;
+}
+.line {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.shortlinkmain {
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 10px;
+}
+.shortlink:hover {
+    text-decoration: underline;
+}
+.shoes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    width: 200px;
+    padding-top: 30px;
+}
+.search {
+    height: 40px;
+    width: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 50px;
+    background-color: #c6c6c6;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.login {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.loginlink {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.loginlink:hover {
+    text-decoration: underline;
+}
+.loginhr {
+    margin: 20px;
+    background-color: black;
+    border-color: black;
+}
+main {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+article {
+    width: 60%;
+}
+.article-nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.article-nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.article-nav a:hover {
+    text-decoration: underline;
+}
+.article-img {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+}
+aside {
+    margin-left: 50px;
+    width: 30%;
+}
+.sneakers-name p {
+    font-size: 15px;
+}
+.sneakers-name span {
+    font-weight: bold;
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+b {
+    font-size: 20px;
+}
+.sneakers-name img {
+    width: 70px;
+    height: 70px;
+}
+.size {
+    margin-top: 20px;
+}
+.sizetxt {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 20px;
+}
+.fit {
+    margin-left: auto;
+}
+.sizetxt a {
+    text-decoration: underline;
+    color: black;
+}
+.choosesize button {
+    margin: 5px;
+    background-color: white;
+}
+.sizebutton {
+    width: 90px;
+    height: 55px;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: #d0d0d0;
+    transition: .3s;
+    border-width: 3px;
+    border-style: solid;
+}
+.sizebutton:hover {
+    border-color: black;
+}
+.wide p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.wide button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 160px;
+    height: 55px;
+}
+.wide button:hover {
+    background-color: #292828;
+}
+.cart {
+    width: 100%;
+    height: 80px;
+    background-color: #b70000;
+    font-size: 20px;
+    color: white;
+    transition: .5s;
+    margin-top: 30px;
+    border: none;
+}
+.cart:hover {
+    background-color: #8b0000;
+}
+.description {
+    font-size: 20px;
+    margin-top: 30px;
+}
+.description p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.description span {
+    font-weight: bold;
+}
+.product-info {
+    width: 100%;
+    height: 80px;
+    border-left-color: white;
+    border-right-color: white;
+    border-top-color: #d1d1d1;
+    border-bottom-color: #d1d1d1;
+    background-color: white;
+    border-style: solid;
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-info:hover {
+    text-decoration: underline;
+}
+.buttons-help {
+    display: flex;
+    flex-direction: row;
+}
+.buttons-help button {
+    background-color: white;
+    width: 50%;
+    height: 80px;
+    border-style: solid;
+    border-top: none;
+    border-bottom-color: #d1d1d1;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.buttons-help button:hover {
+    text-decoration: underline;
+}
+.buttons-help hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.like {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.liketxt {
+    font-weight: bold;
+    font-size: 30px;
+}
+.cards {
+    display: flex;
+    overflow-x: auto;
+}
+/*section::-webkit-scrollbar {
+    display: none;
+}*/
+.card-content {
+    margin: 15px;
+    transition: .5s;
+}
+.card-content:hover {
+    transform: scale(1.05);
+}
+.card-name {
+    display: flex;
+    padding-top: 0;
+}
+.card-name p {
+    font-size: 20px;
+    color: black;    
+}
+.price {
+    margin-left: auto;
+}
+.card-name a {
+    color: black;
+    text-decoration: none;
+}
+.card-name a:hover {
+    text-decoration: underline;
+}
+.review {
+    margin-top: 50px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.review p {
+    font-size: 30px;
+    font-weight: bold;
+}
+.review button {
+    width: 350px;
+    height: 70px;
+    border-style: solid;
+    border-color: #b70000;
+    color: #b70000;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: white;
+}
+.register {
+    background-color: black;
+    width: 99%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: flex;
+    font-size: 20px;
+}
+.register p {
+    color: white;
+}
+.register button {
+    background-color: #b70000;
+    border-color: #b70000;
+    color: white;
+    width: 200px;
+    height: 70px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.register-content {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+footer {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+.footer-nav {
+    display: flex;
+}
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+.footer-column p {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+.footer-column a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding-top: 15px;
+}
+.footer-column a:hover {
+    text-decoration: underline;
+}
+.footer-socials {
+    margin-left: auto;
+    margin-top: 50px;
+    margin-right: 0;
+    width: 20%;
+    font-size: 20px;
+    line-height: 40px;
+}
+.footer-socials img {
+    width: 150px;
+    height: 70px;
+}
+.socials-links {
+    display: flex;
+}
+.socials-links img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+.familybrands {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.familybrands img {
+    width: 150px;
+    height: 80px;
+    margin: 10px;
+}
+.familybrands p {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.copyright {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer-lang {
+    display: flex;
+}
+.footer-lang img {
+    width: 40px;
+    height: 25px;
+}
+.footer-lang a {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+.footer-lang a:hover {
+    text-decoration: underline;
+}
+.privacy {
+    display: flex;
+}
+.privacy a {
+    color: black;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-copyright p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
